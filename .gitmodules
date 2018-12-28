@@ -1,0 +1,6 @@
+[submodule "themes/minimal"]
+	path = themes/minimal
+	url = https://github.com/flannon/minimal
+[submodule "flannon.github.io"]
+	path = flannon.github.io
+	url = https://github.com/flannon/flannon.github.io
