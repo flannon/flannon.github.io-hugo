@@ -1,0 +1,22 @@
+# Golang CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-go/ for more details
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+      
+    working_directory: ~/hugo
+    steps:
+      - checkout
+      - run:
+        name: "submodule update"
+        command: git submodule update --init --recursive
+      - run: 
+        name: "build"
+        command: [[ "$({CIRCLE_BRANCH} == "master ]] && echo "branch master"
+        #command: [[ "$({CIRCLE_BRANCH} == "master ]] && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      - add_ssh_keys:
+          fingerprints:
+            - "MD5:b5:00:48:49:ea:9b:77:f3:a8:ba:b8:62:fd:03:b7:b8"
