@@ -9,7 +9,8 @@ theme = "minimal"
     author = "Flannon Jackson"
     description = "Personal blog theme powered by Hugo"
     githubUsername = "flannon"
-    accent = "cyan"
+    #accent = "cyan"
+    accent = "orange"
     showBorder = true
     backgroundColor = "white"
     #font = "Raleway" # should match the name on Google Fonts!
@@ -28,10 +29,10 @@ theme = "minimal"
     name = "Posts"
     weight = 2
 
-[[menu.main]]
-    url = "/projects/"
-    name = "Projects"
-    weight = 3
+#[[menu.main]]
+#    url = "/projects/"
+#    name = "Projects"
+#    weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
