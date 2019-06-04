@@ -3,6 +3,7 @@ title: "Getting Started with Hugo"
 date: 2014-04-02
 tags: ["go", "golang", "hugo", "development"]
 draft: false
+expiryDate: 2018-12-31
 ---
 
 ## Step 1. Install Hugo

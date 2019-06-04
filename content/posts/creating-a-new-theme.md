@@ -1,8 +1,9 @@
 ---
 title: "Creating a New Theme"
-date: 2014-09-28
+date: 2018-08-28
 tags: ["go", "golang", "hugo", "themes"]
 draft: false
+expiryDate: 2018-12-31
 ---
 
 ## Introduction

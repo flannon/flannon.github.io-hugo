@@ -3,6 +3,7 @@ title: "(Hu)go Template Primer"
 date: 2014-04-02
 tags: [ "go", "golang", "template", "themes", "development"]
 draft: false
+expiryDate: 2018-12-31
 ---
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
